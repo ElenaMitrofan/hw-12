@@ -7,4 +7,17 @@ public class Book {
         this.authorName = authorName;
         this.publishingYear = publishingYear;
     }
+    public String getBookName () {
+        return bookName;
+    }
+    public String getAuthorName () {
+        return authorName;
+    }
+    public int getPublishingYear () {
+        return publishingYear;
+    }
+    public void setPublishingYear(int publishingYear) {
+        this.publishingYear = publishingYear;
+    }
+
     }
